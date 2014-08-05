@@ -12,4 +12,5 @@
 
 @interface PostListViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
+@property(nonatomic) NSString *driverName;
 @end

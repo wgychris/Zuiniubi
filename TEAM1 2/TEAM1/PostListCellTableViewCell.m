@@ -9,10 +9,7 @@
 #import "PostListCellTableViewCell.h"
 
 @implementation PostListCellTableViewCell
-@synthesize from = _from;
-@synthesize to = _to;
-@synthesize status = _status;
-@synthesize time = _time;
+@synthesize name, phone, des;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -34,7 +31,6 @@
 
     // Configure the view for the selected state
 }
-
 
 
 @end

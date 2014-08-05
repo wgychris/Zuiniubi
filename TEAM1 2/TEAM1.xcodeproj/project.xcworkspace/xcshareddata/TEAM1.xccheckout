@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>8135DDBC-3348-426E-A1F2-56F816B65593</string>
+	<string>6D2D7B14-EB10-44C9-BFE1-A39DE48F3EAB</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TEAM1</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>304359CC-CA1A-4EF1-9E1C-823F6367C866</key>
-		<string>ssh://github.com/wgychris/PitBus.git</string>
+		<key>53F6FF4B-6CE8-4A42-8DE7-88818BBF0333</key>
+		<string>ssh://github.com/wgychris/Zuiniubi.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TEAM1/TEAM1.xcodeproj/project.xcworkspace</string>
+	<string>TEAM1 2/TEAM1.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>304359CC-CA1A-4EF1-9E1C-823F6367C866</key>
+		<key>53F6FF4B-6CE8-4A42-8DE7-88818BBF0333</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/wgychris/PitBus.git</string>
+	<string>ssh://github.com/wgychris/Zuiniubi.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>304359CC-CA1A-4EF1-9E1C-823F6367C866</string>
+	<string>53F6FF4B-6CE8-4A42-8DE7-88818BBF0333</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>304359CC-CA1A-4EF1-9E1C-823F6367C866</string>
+			<string>53F6FF4B-6CE8-4A42-8DE7-88818BBF0333</string>
 			<key>IDESourceControlWCCName</key>
-			<string>PitBus</string>
+			<string>Zuiniubi</string>
 		</dict>
 	</array>
 </dict>

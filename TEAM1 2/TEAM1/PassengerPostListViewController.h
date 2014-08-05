@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PassengerPostListViewController : UIViewController
+@interface PassengerPostListViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
 
 @end

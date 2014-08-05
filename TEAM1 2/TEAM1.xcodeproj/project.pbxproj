@@ -27,40 +27,30 @@
 		1E26A16B19172A0F00C4915A /* wild_oliva.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E26A16819172A0F00C4915A /* wild_oliva.png */; };
 		1E26A16C19172A0F00C4915A /* wild_oliva_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E26A16919172A0F00C4915A /* wild_oliva_@2X.png */; };
 		1E26A16D19172A0F00C4915A /* wild_oliva_@tabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E26A16A19172A0F00C4915A /* wild_oliva_@tabBar.png */; };
-		1E26A1701917411200C4915A /* NearByTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E26A16F1917411200C4915A /* NearByTableViewCell.m */; };
 		1E976044191826B00018A146 /* down2-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E976043191826B00018A146 /* down2-32.png */; };
 		1E976046191856750018A146 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E976045191856750018A146 /* MapKit.framework */; };
 		1EABE27B191C6E1000101C45 /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EABE27A191C6E1000101C45 /* test2.jpg */; };
 		1EB012E319186D4200AE6B1F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB012E219186D4200AE6B1F /* SettingsViewController.m */; };
 		1EB012E61918796000AE6B1F /* DismissSeque.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB012E51918796000AE6B1F /* DismissSeque.m */; };
-		1EB012E9191882C300AE6B1F /* SelectItineraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB012E8191882C300AE6B1F /* SelectItineraryViewController.m */; };
-		1EB012EC1918845900AE6B1F /* SelectItineraryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB012EB1918845900AE6B1F /* SelectItineraryTableViewCell.m */; };
 		1EC74EC9191C20D5001CC343 /* PrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC74EC8191C20D5001CC343 /* PrivacyViewController.m */; };
 		1EC74ECC191C248C001CC343 /* running.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC74ECA191C248C001CC343 /* running.png */; };
 		1EC74ECD191C248C001CC343 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC74ECB191C248C001CC343 /* car.png */; };
-		1EC74ED0191C296B001CC343 /* DetailRouteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC74ECF191C296B001CC343 /* DetailRouteListViewController.m */; };
 		1EC74EE1191C6CF2001CC343 /* test1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EC74EDF191C6CF2001CC343 /* test1.jpg */; };
 		C10C290F198F2BE9005DCF5C /* PostListCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C10C290E198F2BE9005DCF5C /* PostListCellTableViewCell.m */; };
 		C10C2912198F325C005DCF5C /* PassengerPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C10C2911198F325C005DCF5C /* PassengerPostViewController.m */; };
-		C10C2915198F381A005DCF5C /* PassengerPostListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C10C2914198F381A005DCF5C /* PassengerPostListViewController.m */; };
 		C129F9161974679400BC1C8D /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C129F9151974679400BC1C8D /* home.png */; };
 		C129F91A1974685300BC1C8D /* post.png in Resources */ = {isa = PBXBuildFile; fileRef = C129F9171974685300BC1C8D /* post.png */; };
 		C129F91B1974685300BC1C8D /* requests.png in Resources */ = {isa = PBXBuildFile; fileRef = C129F9181974685300BC1C8D /* requests.png */; };
 		C129F91C1974685300BC1C8D /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = C129F9191974685300BC1C8D /* setting.png */; };
-		C129F91F1974721400BC1C8D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C129F91E1974721400BC1C8D /* SecondViewController.m */; };
-		C1310770191AFBFC00692555 /* DetailRoutePdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1310765191AFBFC00692555 /* DetailRoutePdfViewController.m */; };
-		C1310771191AFBFC00692555 /* DetailRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1310767191AFBFC00692555 /* DetailRouteViewController.m */; };
-		C1310772191AFBFC00692555 /* ListRoutesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1310769191AFBFC00692555 /* ListRoutesTableViewController.m */; };
-		C1310773191AFBFC00692555 /* LocationMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C131076B191AFBFC00692555 /* LocationMapViewController.m */; };
-		C1310774191AFBFC00692555 /* LocationTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C131076D191AFBFC00692555 /* LocationTabViewController.m */; };
-		C1310775191AFBFC00692555 /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C131076F191AFBFC00692555 /* MapPoint.m */; };
+		C129F91F1974721400BC1C8D /* DriverPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C129F91E1974721400BC1C8D /* DriverPostViewController.m */; };
 		C13A975019888963008A4281 /* DetailStepTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C13A974F19888963008A4281 /* DetailStepTableViewCell.m */; };
 		C1771D831985CB4300F73BCC /* HomeViewConrtoller.m in Sources */ = {isa = PBXBuildFile; fileRef = C1771D821985CB4300F73BCC /* HomeViewConrtoller.m */; };
 		C1771D851985CBA100F73BCC /* medium_carpool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1771D841985CBA100F73BCC /* medium_carpool.jpg */; };
 		C1771D871985CD1800F73BCC /* medium_carpool.png in Resources */ = {isa = PBXBuildFile; fileRef = C1771D861985CD1800F73BCC /* medium_carpool.png */; };
 		C177897C198F24830085B397 /* PostListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C177897B198F24830085B397 /* PostListViewController.m */; };
 		C177897E198F2A000085B397 /* PostListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C177897D198F29FF0085B397 /* PostListCell.xib */; };
-		C1B09BE0191B1C6000860396 /* DetailStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B09BDF191B1C6000860396 /* DetailStepViewController.m */; };
+		C1F3C4F619904D9700BB890B /* PasListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F3C4F519904D9700BB890B /* PasListViewController.m */; };
+		C1F3C4FE1990571B00BB890B /* HttpConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F3C4FD1990571B00BB890B /* HttpConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,7 +90,6 @@
 		1E26A16919172A0F00C4915A /* wild_oliva_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wild_oliva_@2X.png"; sourceTree = "<group>"; };
 		1E26A16A19172A0F00C4915A /* wild_oliva_@tabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wild_oliva_@tabBar.png"; sourceTree = "<group>"; };
 		1E26A16E1917411200C4915A /* NearByTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearByTableViewCell.h; sourceTree = "<group>"; };
-		1E26A16F1917411200C4915A /* NearByTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearByTableViewCell.m; sourceTree = "<group>"; };
 		1E976043191826B00018A146 /* down2-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down2-32.png"; sourceTree = "<group>"; };
 		1E976045191856750018A146 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1EABE27A191C6E1000101C45 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
@@ -108,41 +97,21 @@
 		1EB012E219186D4200AE6B1F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		1EB012E41918796000AE6B1F /* DismissSeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissSeque.h; sourceTree = "<group>"; };
 		1EB012E51918796000AE6B1F /* DismissSeque.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissSeque.m; sourceTree = "<group>"; };
-		1EB012E7191882C300AE6B1F /* SelectItineraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectItineraryViewController.h; sourceTree = "<group>"; };
-		1EB012E8191882C300AE6B1F /* SelectItineraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectItineraryViewController.m; sourceTree = "<group>"; };
-		1EB012EA1918845900AE6B1F /* SelectItineraryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectItineraryTableViewCell.h; sourceTree = "<group>"; };
-		1EB012EB1918845900AE6B1F /* SelectItineraryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectItineraryTableViewCell.m; sourceTree = "<group>"; };
 		1EC74EC7191C20D5001CC343 /* PrivacyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivacyViewController.h; sourceTree = "<group>"; };
 		1EC74EC8191C20D5001CC343 /* PrivacyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivacyViewController.m; sourceTree = "<group>"; };
 		1EC74ECA191C248C001CC343 /* running.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = running.png; sourceTree = SOURCE_ROOT; };
 		1EC74ECB191C248C001CC343 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = SOURCE_ROOT; };
-		1EC74ECE191C296B001CC343 /* DetailRouteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailRouteListViewController.h; path = ../DetailRouteListViewController.h; sourceTree = "<group>"; };
-		1EC74ECF191C296B001CC343 /* DetailRouteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailRouteListViewController.m; path = ../DetailRouteListViewController.m; sourceTree = "<group>"; };
 		1EC74EDF191C6CF2001CC343 /* test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpg; sourceTree = "<group>"; };
 		C10C290D198F2BE9005DCF5C /* PostListCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostListCellTableViewCell.h; sourceTree = "<group>"; };
 		C10C290E198F2BE9005DCF5C /* PostListCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostListCellTableViewCell.m; sourceTree = "<group>"; };
 		C10C2910198F325C005DCF5C /* PassengerPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassengerPostViewController.h; sourceTree = "<group>"; };
 		C10C2911198F325C005DCF5C /* PassengerPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassengerPostViewController.m; sourceTree = "<group>"; };
-		C10C2913198F381A005DCF5C /* PassengerPostListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassengerPostListViewController.h; sourceTree = "<group>"; };
-		C10C2914198F381A005DCF5C /* PassengerPostListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassengerPostListViewController.m; sourceTree = "<group>"; };
 		C129F9151974679400BC1C8D /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		C129F9171974685300BC1C8D /* post.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = post.png; sourceTree = "<group>"; };
 		C129F9181974685300BC1C8D /* requests.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = requests.png; sourceTree = "<group>"; };
 		C129F9191974685300BC1C8D /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
-		C129F91D1974721400BC1C8D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		C129F91E1974721400BC1C8D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		C1310764191AFBFC00692555 /* DetailRoutePdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailRoutePdfViewController.h; sourceTree = "<group>"; };
-		C1310765191AFBFC00692555 /* DetailRoutePdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailRoutePdfViewController.m; sourceTree = "<group>"; };
-		C1310766191AFBFC00692555 /* DetailRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailRouteViewController.h; sourceTree = "<group>"; };
-		C1310767191AFBFC00692555 /* DetailRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailRouteViewController.m; sourceTree = "<group>"; };
-		C1310768191AFBFC00692555 /* ListRoutesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListRoutesTableViewController.h; sourceTree = "<group>"; };
-		C1310769191AFBFC00692555 /* ListRoutesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListRoutesTableViewController.m; sourceTree = "<group>"; };
-		C131076A191AFBFC00692555 /* LocationMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationMapViewController.h; sourceTree = "<group>"; };
-		C131076B191AFBFC00692555 /* LocationMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationMapViewController.m; sourceTree = "<group>"; };
-		C131076C191AFBFC00692555 /* LocationTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTabViewController.h; sourceTree = "<group>"; };
-		C131076D191AFBFC00692555 /* LocationTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTabViewController.m; sourceTree = "<group>"; };
-		C131076E191AFBFC00692555 /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
-		C131076F191AFBFC00692555 /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
+		C129F91D1974721400BC1C8D /* DriverPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverPostViewController.h; sourceTree = "<group>"; };
+		C129F91E1974721400BC1C8D /* DriverPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverPostViewController.m; sourceTree = "<group>"; };
 		C13A974E19888963008A4281 /* DetailStepTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailStepTableViewCell.h; sourceTree = "<group>"; };
 		C13A974F19888963008A4281 /* DetailStepTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailStepTableViewCell.m; sourceTree = "<group>"; };
 		C1771D811985CB4300F73BCC /* HomeViewConrtoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewConrtoller.h; sourceTree = "<group>"; };
@@ -152,8 +121,10 @@
 		C177897A198F24830085B397 /* PostListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostListViewController.h; sourceTree = "<group>"; };
 		C177897B198F24830085B397 /* PostListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostListViewController.m; sourceTree = "<group>"; };
 		C177897D198F29FF0085B397 /* PostListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostListCell.xib; sourceTree = "<group>"; };
-		C1B09BDE191B1C6000860396 /* DetailStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailStepViewController.h; sourceTree = "<group>"; };
-		C1B09BDF191B1C6000860396 /* DetailStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailStepViewController.m; sourceTree = "<group>"; };
+		C1F3C4F419904D9700BB890B /* PasListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasListViewController.h; sourceTree = "<group>"; };
+		C1F3C4F519904D9700BB890B /* PasListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasListViewController.m; sourceTree = "<group>"; };
+		C1F3C4FC1990571B00BB890B /* HttpConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpConnection.h; sourceTree = "<group>"; };
+		C1F3C4FD1990571B00BB890B /* HttpConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpConnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,23 +186,18 @@
 		1E26A129191722BB00C4915A /* TEAM1 */ = {
 			isa = PBXGroup;
 			children = (
-				C1310763191AFBFC00692555 /* 2ndPart */,
 				1E26A15B191724F000C4915A /* Image */,
 				1E26A132191722BB00C4915A /* AppDelegate.h */,
 				1E26A133191722BB00C4915A /* AppDelegate.m */,
 				1E26A135191722BB00C4915A /* Main.storyboard */,
 				C1771D811985CB4300F73BCC /* HomeViewConrtoller.h */,
 				C1771D821985CB4300F73BCC /* HomeViewConrtoller.m */,
-				1EC74ECE191C296B001CC343 /* DetailRouteListViewController.h */,
-				1EC74ECF191C296B001CC343 /* DetailRouteListViewController.m */,
-				C1B09BDE191B1C6000860396 /* DetailStepViewController.h */,
-				C1B09BDF191B1C6000860396 /* DetailStepViewController.m */,
-				C129F91D1974721400BC1C8D /* SecondViewController.h */,
-				C129F91E1974721400BC1C8D /* SecondViewController.m */,
+				C129F91D1974721400BC1C8D /* DriverPostViewController.h */,
+				C129F91E1974721400BC1C8D /* DriverPostViewController.m */,
+				C1F3C4FC1990571B00BB890B /* HttpConnection.h */,
+				C1F3C4FD1990571B00BB890B /* HttpConnection.m */,
 				C177897A198F24830085B397 /* PostListViewController.h */,
 				C177897B198F24830085B397 /* PostListViewController.m */,
-				1EB012E7191882C300AE6B1F /* SelectItineraryViewController.h */,
-				1EB012E8191882C300AE6B1F /* SelectItineraryViewController.m */,
 				1EB012E41918796000AE6B1F /* DismissSeque.h */,
 				1EB012E51918796000AE6B1F /* DismissSeque.m */,
 				1E26A138191722BB00C4915A /* FirstViewController.h */,
@@ -243,9 +209,6 @@
 				C13A974E19888963008A4281 /* DetailStepTableViewCell.h */,
 				C13A974F19888963008A4281 /* DetailStepTableViewCell.m */,
 				1E26A16E1917411200C4915A /* NearByTableViewCell.h */,
-				1EB012EA1918845900AE6B1F /* SelectItineraryTableViewCell.h */,
-				1EB012EB1918845900AE6B1F /* SelectItineraryTableViewCell.m */,
-				1E26A16F1917411200C4915A /* NearByTableViewCell.m */,
 				1E26A13E191722BB00C4915A /* Images.xcassets */,
 				1E26A12A191722BB00C4915A /* Supporting Files */,
 				C177897D198F29FF0085B397 /* PostListCell.xib */,
@@ -253,8 +216,8 @@
 				C10C290E198F2BE9005DCF5C /* PostListCellTableViewCell.m */,
 				C10C2910198F325C005DCF5C /* PassengerPostViewController.h */,
 				C10C2911198F325C005DCF5C /* PassengerPostViewController.m */,
-				C10C2913198F381A005DCF5C /* PassengerPostListViewController.h */,
-				C10C2914198F381A005DCF5C /* PassengerPostListViewController.m */,
+				C1F3C4F419904D9700BB890B /* PasListViewController.h */,
+				C1F3C4F519904D9700BB890B /* PasListViewController.m */,
 			);
 			path = TEAM1;
 			sourceTree = "<group>";
@@ -310,25 +273,6 @@
 				1E26A1641917296000C4915A /* compas-32.png */,
 			);
 			name = Image;
-			sourceTree = "<group>";
-		};
-		C1310763191AFBFC00692555 /* 2ndPart */ = {
-			isa = PBXGroup;
-			children = (
-				C1310764191AFBFC00692555 /* DetailRoutePdfViewController.h */,
-				C1310765191AFBFC00692555 /* DetailRoutePdfViewController.m */,
-				C1310766191AFBFC00692555 /* DetailRouteViewController.h */,
-				C1310767191AFBFC00692555 /* DetailRouteViewController.m */,
-				C1310768191AFBFC00692555 /* ListRoutesTableViewController.h */,
-				C1310769191AFBFC00692555 /* ListRoutesTableViewController.m */,
-				C131076A191AFBFC00692555 /* LocationMapViewController.h */,
-				C131076B191AFBFC00692555 /* LocationMapViewController.m */,
-				C131076C191AFBFC00692555 /* LocationTabViewController.h */,
-				C131076D191AFBFC00692555 /* LocationTabViewController.m */,
-				C131076E191AFBFC00692555 /* MapPoint.h */,
-				C131076F191AFBFC00692555 /* MapPoint.m */,
-			);
-			path = 2ndPart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,30 +393,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EB012EC1918845900AE6B1F /* SelectItineraryTableViewCell.m in Sources */,
-				1EB012E9191882C300AE6B1F /* SelectItineraryViewController.m in Sources */,
-				1EC74ED0191C296B001CC343 /* DetailRouteListViewController.m in Sources */,
-				C1B09BE0191B1C6000860396 /* DetailStepViewController.m in Sources */,
+				C1F3C4F619904D9700BB890B /* PasListViewController.m in Sources */,
 				1E26A134191722BB00C4915A /* AppDelegate.m in Sources */,
+				C1F3C4FE1990571B00BB890B /* HttpConnection.m in Sources */,
 				1EB012E61918796000AE6B1F /* DismissSeque.m in Sources */,
-				C1310774191AFBFC00692555 /* LocationTabViewController.m in Sources */,
-				C1310771191AFBFC00692555 /* DetailRouteViewController.m in Sources */,
-				1E26A1701917411200C4915A /* NearByTableViewCell.m in Sources */,
-				C1310772191AFBFC00692555 /* ListRoutesTableViewController.m in Sources */,
 				C13A975019888963008A4281 /* DetailStepTableViewCell.m in Sources */,
 				C10C2912198F325C005DCF5C /* PassengerPostViewController.m in Sources */,
 				C10C290F198F2BE9005DCF5C /* PostListCellTableViewCell.m in Sources */,
 				C1771D831985CB4300F73BCC /* HomeViewConrtoller.m in Sources */,
 				1EB012E319186D4200AE6B1F /* SettingsViewController.m in Sources */,
-				C1310773191AFBFC00692555 /* LocationMapViewController.m in Sources */,
 				1E26A13A191722BB00C4915A /* FirstViewController.m in Sources */,
-				C1310770191AFBFC00692555 /* DetailRoutePdfViewController.m in Sources */,
-				C129F91F1974721400BC1C8D /* SecondViewController.m in Sources */,
+				C129F91F1974721400BC1C8D /* DriverPostViewController.m in Sources */,
 				C177897C198F24830085B397 /* PostListViewController.m in Sources */,
 				1EC74EC9191C20D5001CC343 /* PrivacyViewController.m in Sources */,
 				1E26A130191722BB00C4915A /* main.m in Sources */,
-				C1310775191AFBFC00692555 /* MapPoint.m in Sources */,
-				C10C2915198F381A005DCF5C /* PassengerPostListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

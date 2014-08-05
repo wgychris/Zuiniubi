@@ -1,26 +1,23 @@
 //
-//  PassengerPostViewController.m
+//  PasListViewController.m
 //  TEAM1
 //
-//  Created by Guanying Wang on 14-8-3.
+//  Created by Guanying Wang on 14-8-4.
 //  Copyright (c) 2014年 Guanying Wang. All rights reserved.
 //
 
-#import "PassengerPostViewController.h"
-#import "HttpConnection.h"
 #import "PasListViewController.h"
-@interface PassengerPostViewController ()
+#import "PostListCellTableViewCell.h"
+#import "HttpConnection.h"
+
+
+@interface PasListViewController ()
 
 @end
 
-@implementation PassengerPostViewController
-{
-    NSArray *nameArr;
-    NSArray *licenseArr;
-    NSArray *waitArr;
-}
-
-@synthesize nameTextField,phoneTextField,radiusTextField,lat,lon;
+@implementation PasListViewController
+@synthesize nameArr, licenseArr,waitArr;
+@synthesize lat,lon,radius;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,22 +30,34 @@
 
 - (void)viewDidLoad
 {
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(refresh_List)];
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view.
+    //nameArr = [[NSMutableArray alloc]initWithObjects:@"name1", @"name2", nil];
+    //licenseArr = [[NSMutableArray alloc]initWithObjects:@"111", @"456", nil];
+    //waitArr= [[NSMutableArray alloc]initWithObjects:@"waittime1", @"waittime2", nil];
 }
 
+-(void)refresh_List {
+    [self requestData];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [nameArr count];
+}
+
 
 -(void) requestData {
     HttpConnection *connection = [[HttpConnection alloc] init];
-
+    
     NSArray *keys = [NSArray arrayWithObjects:@"distance", @"longitude",
                      @"latitude",nil];
-    NSString *radius = radiusTextField.text;
     
     NSArray *objects = [NSArray arrayWithObjects:radius
                         ,@"111",
@@ -56,14 +65,11 @@
     NSDictionary *dict = [NSDictionary dictionaryWithObjects:objects
                                                      forKeys:keys];
     
-    NSLog(@"radius is!!:%@",radius);
+   // NSLog(@"radius is!!:%@",radius);
     //NSDictionary *dict = @{@"driver":@"david"};
     NSString * url =[connection getAvailableDriverURL:dict];
-    NSLog(@"url:%@",url);
-    NSLog(@"!!!!!");
     NSDictionary *drivers = [connection sendHTTPRequest:url];
-    NSLog(@"Response%@",drivers);
-    NSLog(@"%@",[drivers objectForKey:@"Driver"]);
+
     
     
     NSArray *allDrivers = drivers[@"Driver"];
@@ -81,29 +87,41 @@
     
     
     
-  /*  NSLog(@"!!!Name Arr in Post List!!!!%@",nameArr);
+    /*  NSLog(@"!!!Name Arr in Post List!!!!%@",nameArr);
+     
+     NSLog(@"!!!Phone Arr in Post List!!!!%@",licenseArr);
+     
+     NSLog(@"!!!Des Arr in Post List!!!!%@",waitArr);
+     */
     
-    NSLog(@"!!!Phone Arr in Post List!!!!%@",licenseArr);
-    
-    NSLog(@"!!!Des Arr in Post List!!!!%@",waitArr);
-   */
-
     
 }
 
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-  
-    if([segue.identifier isEqualToString:@"pasShowList"]){
-        [self requestData];
-        PasListViewController *controller = (PasListViewController *)segue.destinationViewController;
-        controller.nameArr = nameArr;
-        controller.waitArr = waitArr;
-        controller.licenseArr = licenseArr;
-        controller.lat = lat;
-        controller.lon = lon;
-        controller.radius = radiusTextField.text;
-        NSLog(@"Segur!!!");
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+
+    static NSString *simpleTableIdentifier = @"PostListItem";
+    
+    PostListCellTableViewCell *cell = (PostListCellTableViewCell *)[tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+    if (cell == nil)
+    {
+        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"PostListCell" owner:self options:nil];
+        cell = [nib objectAtIndex:0];
     }
+    
+    NSLog(@"???????Name Arr in Post List!!!!%@",nameArr);
+    
+    NSLog(@"???????Phone Arr in Post List!!!!%@",licenseArr);
+    
+    NSLog(@"???????Des Arr in Post List!!!!%@",waitArr);
+    
+    cell.name.text = [nameArr objectAtIndex:indexPath.row];
+    cell.phone.text = [licenseArr objectAtIndex:indexPath.row];
+    cell.des.text = [waitArr objectAtIndex:indexPath.row];
+    
+    return cell;
+ 
 }
 
 /*
@@ -117,7 +135,4 @@
 }
 */
 
-- (IBAction)postButton:(id)sender {
-    
-}
 @end

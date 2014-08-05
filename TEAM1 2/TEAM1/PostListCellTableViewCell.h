@@ -10,9 +10,11 @@
 
 @interface PostListCellTableViewCell : UITableViewCell
 
-@property (nonatomic, weak) IBOutlet UILabel *from;
-@property (nonatomic, weak) IBOutlet UILabel *to;
-@property (nonatomic, weak) IBOutlet UILabel *status;
-@property (nonatomic, weak) IBOutlet UILabel *time;
+
+@property (strong, nonatomic) IBOutlet UILabel *name;
+
+@property (strong, nonatomic) IBOutlet UILabel *phone;
+@property (strong, nonatomic) IBOutlet UILabel *des;
+
 
 @end

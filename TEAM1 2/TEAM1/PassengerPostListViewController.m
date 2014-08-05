@@ -13,6 +13,12 @@
 @end
 
 @implementation PassengerPostListViewController
+{
+    NSMutableArray *nameArr;
+    
+    NSMutableArray *licenseArr;
+    NSMutableArray *waitArr;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,13 +32,42 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    nameArr = [[NSMutableArray alloc]initWithObjects:@"name1", @"name2", nil];
+    licenseArr = [[NSMutableArray alloc]initWithObjects:@"111", @"456", nil];
+    waitArr= [[NSMutableArray alloc]initWithObjects:@"waittime1", @"waittime2", nil];
+    
 }
+
+
+
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [nameArr count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *simpleTableIdentifier = @"PassengerListCell";
+    
+     PassengerListCell *cell = (PassengerListCell *)[tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+    if (cell == nil)
+    {
+        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"PassengerListCell" owner:self options:nil];
+        cell = [nib objectAtIndex:0];
+    }
+
+    cell.nameLabel.text = [nameArr objectAtIndex:indexPath.row];
+    cell.licenseLabel.text = [licenseArr objectAtIndex:indexPath.row];
+    cell.waitTimeLabel.text = [waitArr objectAtIndex:indexPath.row];
+    
+    return cell;
 }
 
 /*
